@@ -1,0 +1,26 @@
+# ninja log v6
+10	186	7953265728076761	main_autogen/timestamp	51e84f0eb3d28892
+10	186	7953265728076761	main_autogen/mocs_compilation.cpp	51e84f0eb3d28892
+10	186	7953265728076761	C:/Users/User/Documents/main/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/main_autogen/timestamp	51e84f0eb3d28892
+10	186	7953265728076761	C:/Users/User/Documents/main/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/main_autogen/mocs_compilation.cpp	51e84f0eb3d28892
+189	256	7953265728678430	CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj	3f5f549cef89eff9
+193	1569	7953265728718520	CMakeFiles/main.dir/main.cpp.obj	7bcd4f29ac7e8b35
+1572	1693	7953265742505281	main.exe	427678a2cb021f8a
+10	145	7953269744472330	main_autogen/timestamp	51e84f0eb3d28892
+10	145	7953269744472330	main_autogen/mocs_compilation.cpp	51e84f0eb3d28892
+10	145	7953269744472330	C:/Users/User/Documents/main/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/main_autogen/timestamp	51e84f0eb3d28892
+10	145	7953269744472330	C:/Users/User/Documents/main/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/main_autogen/mocs_compilation.cpp	51e84f0eb3d28892
+146	1636	7953269745832485	CMakeFiles/main.dir/main.cpp.obj	7bcd4f29ac7e8b35
+1637	1748	7953269760737434	main.exe	427678a2cb021f8a
+65	208	7953270987084539	main_autogen/timestamp	51e84f0eb3d28892
+65	208	7953270987084539	main_autogen/mocs_compilation.cpp	51e84f0eb3d28892
+65	208	7953270987084539	C:/Users/User/Documents/main/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/main_autogen/timestamp	51e84f0eb3d28892
+65	208	7953270987084539	C:/Users/User/Documents/main/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/main_autogen/mocs_compilation.cpp	51e84f0eb3d28892
+209	1776	7953270988559822	CMakeFiles/main.dir/main.cpp.obj	7bcd4f29ac7e8b35
+1776	1896	7953271004226088	main.exe	427678a2cb021f8a
+50	197	7954219394587008	main_autogen/timestamp	51e84f0eb3d28892
+50	197	7954219394587008	main_autogen/mocs_compilation.cpp	51e84f0eb3d28892
+50	197	7954219394587008	C:/Users/User/Documents/main/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/main_autogen/timestamp	51e84f0eb3d28892
+50	197	7954219394587008	C:/Users/User/Documents/main/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/main_autogen/mocs_compilation.cpp	51e84f0eb3d28892
+198	1737	7954219396095747	CMakeFiles/main.dir/main.cpp.obj	7bcd4f29ac7e8b35
+1737	2008	7954219411477575	main.exe	427678a2cb021f8a
