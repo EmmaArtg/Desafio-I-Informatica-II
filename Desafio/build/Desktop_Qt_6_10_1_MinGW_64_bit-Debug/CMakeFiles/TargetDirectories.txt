@@ -1,0 +1,13 @@
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/Desafio.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/Desafio_lupdate.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/update_translations.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/Desafio_lrelease.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/release_translations.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/Desafio_autogen_timestamp_deps.dir
+C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/Desafio_autogen.dir

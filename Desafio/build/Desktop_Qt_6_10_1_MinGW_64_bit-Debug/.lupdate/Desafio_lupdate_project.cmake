@@ -1,0 +1,11 @@
+set(lupdate_project_file "C:/Users/User/Documents/Desafio/CMakeLists.txt")
+set(lupdate_translations "C:/Users/User/Documents/Desafio/Desafio_es_ES.ts")
+set(lupdate_include_paths "")
+set(lupdate_sources "")
+set(lupdate_subproject_count 1)
+
+set(lupdate_subproject1_source_dir "C:/Users/User/Documents/Desafio")
+set(lupdate_subproject1_include_paths "C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_autogen/include;C:/Qt/6.10.1/mingw_64/include/QtCore;C:/Qt/6.10.1/mingw_64/include;C:/Qt/6.10.1/mingw_64/mkspecs/win32-g++;C:/Qt/6.10.1/mingw_64/include")
+set(lupdate_subproject1_sources "C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_autogen/mocs_compilation.cpp;main.cpp;tablero.h;tablero.cpp;C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/Desafio_translations.qrc;C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_es_ES.qm;C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Desafio_translations.cpp;C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_autogen/timestamp;C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_es_ES.qm.rule;C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Desafio_translations.cpp.rule;C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_autogen/timestamp.rule")
+set(lupdate_subproject1_excluded "")
+set(lupdate_subproject1_autogen_dir "C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_autogen")

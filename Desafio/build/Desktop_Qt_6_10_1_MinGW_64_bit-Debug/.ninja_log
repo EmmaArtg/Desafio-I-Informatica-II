@@ -1,0 +1,20 @@
+# ninja log v6
+19	199	7954962690914153	C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_autogen/timestamp	e754d6580134dc55
+9	114	7954962690595844	Desafio_es_ES.qm	137eebcd26d132dc
+202	245	7954962691905958	.qt/rcc/qrc_Desafio_translations.cpp	288a2a42a0e38412
+9	114	7954962690595844	C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_es_ES.qm	137eebcd26d132dc
+19	199	7954962690914153	Desafio_autogen/timestamp	e754d6580134dc55
+19	199	7954962690914153	Desafio_autogen/mocs_compilation.cpp	e754d6580134dc55
+19	199	7954962690914153	C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_autogen/mocs_compilation.cpp	e754d6580134dc55
+202	245	7954962691905958	C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Desafio_translations.cpp	288a2a42a0e38412
+245	313	7954962691994804	CMakeFiles/Desafio.dir/Desafio_autogen/mocs_compilation.cpp.obj	6016783a8b89acc8
+254	319	7954962692089888	CMakeFiles/Desafio.dir/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qt/rcc/qrc_Desafio_translations.cpp.obj	1abc5f87bbbc54c7
+250	1629	7954962692035914	CMakeFiles/Desafio.dir/main.cpp.obj	f786379153b95d99
+1631	1747	7954962705861727	Desafio.exe	7955bc7d9ee50785
+36	197	7955077523042135	Desafio_autogen/timestamp	e754d6580134dc55
+36	197	7955077523042135	Desafio_autogen/mocs_compilation.cpp	e754d6580134dc55
+36	197	7955077523042135	C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_autogen/timestamp	e754d6580134dc55
+36	197	7955077523042135	C:/Users/User/Documents/Desafio/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/Desafio_autogen/mocs_compilation.cpp	e754d6580134dc55
+204	889	7955077524728743	CMakeFiles/Desafio.dir/tablero.cpp.obj	e0ad82471a733fa2
+198	1868	7955077524662589	CMakeFiles/Desafio.dir/main.cpp.obj	f786379153b95d99
+1868	1993	7955077541366305	Desafio.exe	e592268976ade5db
