@@ -2,7 +2,7 @@
 #define PIEZA_H
 #include <cstdint>
 
-struct piezaactiva {
+struct PiezaActiva {
     int id;
     int rotacion;
     int x;
