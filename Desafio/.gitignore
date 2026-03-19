@@ -1,0 +1,22 @@
+# Ignorar carpetas de compilación de CMake y Qt
+build/
+build-*/
+out/
+cmake-build-*/
+.cmake/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*_autogen/
+
+# Ignorar ejecutables y archivos compilados
+*.exe
+*.o
+*.obj
+*.out
+
+# Ignorar configuraciones locales del IDE
+*.user
+.vscode/
+.vs/
+.idea/

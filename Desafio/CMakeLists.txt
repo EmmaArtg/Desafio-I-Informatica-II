@@ -9,6 +9,9 @@ qt_add_executable(Desafio
     main.cpp
     tablero.h
     tablero.cpp
+    pieza.h
+    pieza.cpp
+    .gitignore
 )
 
 qt_add_translations(
