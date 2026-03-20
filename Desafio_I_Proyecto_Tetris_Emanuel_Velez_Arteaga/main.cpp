@@ -73,7 +73,7 @@ int main() {
                     piezaActiva = false;
                 }
                 break;
-            case 'w': case 'W': // Rotar
+            case 'w': case 'W':
             {
                 int nuevaRot = (actual.rotacion + 1) % 4;
                 if (esMovimientoValido(tablero, alto, ancho, actual, actual.x, actual.y, nuevaRot))
@@ -89,8 +89,6 @@ int main() {
             }
         }
     }
-
-
 
     for (int i = 0; i < alto; i++) {
         delete[] tablero[i];
