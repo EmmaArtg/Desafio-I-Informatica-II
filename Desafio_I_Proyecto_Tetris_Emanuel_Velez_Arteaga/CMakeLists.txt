@@ -1,30 +1,29 @@
 cmake_minimum_required(VERSION 3.19)
-project(Desafio LANGUAGES CXX)
+project(untitled1 LANGUAGES CXX)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core LinguistTools)
 
 qt_standard_project_setup()
 
-qt_add_executable(Desafio
+qt_add_executable(untitled1
     main.cpp
-    tablero.h
     tablero.cpp
     pieza.h
+    tablero.h
     pieza.cpp
-    .gitignore
 )
 
 qt_add_translations(
-    TARGETS Desafio
-    TS_FILES Desafio_es_ES.ts
+    TARGETS untitled1
+    TS_FILES untitled1_es_419.ts
 )
 
-target_link_libraries(Desafio
+target_link_libraries(untitled1
     PRIVATE
         Qt::Core
 )
 
-install(TARGETS Desafio
+install(TARGETS untitled1
     BUNDLE  DESTINATION .
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
