@@ -1,15 +1,14 @@
 #include <QCoreApplication>
+#include <QRandomGenerator>
 #include <iostream>
 #include <cstdint>
-#include <cstdlib>
-#include <ctime>
 #include "tablero.h"
 
 using namespace std;
 
 int main() {
-    int ancho;
-    int  alto;
+    int ancho, alto;
+
     cout << "Ingrese el ancho (multiplo de 8, minimo 8): ";
     cin >> ancho;
     while (!(ancho >= 8 && ancho % 8 == 0)) {
@@ -23,76 +22,86 @@ int main() {
         cout << "Invalido. Intenta de nuevo: ";
         cin >> alto;
     }
-    int bytesPorFila = ancho / 8;
-    uint8_t** tablero = new uint8_t*[alto];
 
+    int bytesPorFila = ancho / 8;
+
+    // Tablero con memoria dinámica
+    uint8_t** tablero = new uint8_t*[alto];
     for (int i = 0; i < alto; i++) {
         tablero[i] = new uint8_t[bytesPorFila];
-        for (int j = 0; j < bytesPorFila; j++) {
+        for (int j = 0; j < bytesPorFila; j++)
             tablero[i][j] = 0;
-        }
     }
-    srand((unsigned)time(0));
+
+    int* pieza = new int[4];
+
     bool jugando = true;
-
     while (jugando) {
-        PiezaActiva actual;
-        actual.id       = rand() % 7;
-        actual.rotacion = 0;
-        actual.x        = (ancho / 2) - 2;
-        actual.y        = 0;
+        pieza[0] = (int)QRandomGenerator::global()->bounded(7u);
+        pieza[1] = 0;
+        pieza[2] = (ancho / 2) - 2;
+        pieza[3] = 0;
 
-        if (!esMovimientoValido(tablero, alto, ancho, actual, actual.x, actual.y, actual.rotacion)) {
-            imprimirTablero(tablero, alto, ancho, actual);
-            cout << "\nGAME OVER\n";
+        if (!esMovimientoValido(tablero, alto, ancho,
+                                pieza[0], pieza[2], pieza[3], pieza[1])) {
+            imprimirTablero(tablero, alto, ancho, pieza);
+            cout << "\n*** GAME OVER ***\n";
             break;
         }
 
         bool piezaActiva = true;
         while (piezaActiva) {
-            imprimirTablero(tablero, alto, ancho, actual);
+            imprimirTablero(tablero, alto, ancho, pieza);
 
             char accion;
             cin >> accion;
 
             switch (accion) {
             case 'a': case 'A':
-                if (esMovimientoValido(tablero, alto, ancho, actual, actual.x - 1, actual.y, actual.rotacion))
-                    actual.x--;
+                if (esMovimientoValido(tablero, alto, ancho,
+                                       pieza[0], pieza[2] - 1, pieza[3], pieza[1]))
+                    pieza[2]--;
                 break;
+
             case 'd': case 'D':
-                if (esMovimientoValido(tablero, alto, ancho, actual, actual.x + 1, actual.y, actual.rotacion))
-                    actual.x++;
+                if (esMovimientoValido(tablero, alto, ancho,
+                                       pieza[0], pieza[2] + 1, pieza[3], pieza[1]))
+                    pieza[2]++;
                 break;
+
             case 's': case 'S':
-                if (esMovimientoValido(tablero, alto, ancho, actual, actual.x, actual.y + 1, actual.rotacion)) {
-                    actual.y++;
+                if (esMovimientoValido(tablero, alto, ancho,
+                                       pieza[0], pieza[2], pieza[3] + 1, pieza[1])) {
+                    pieza[3]++;
                 } else {
-                    fijarPieza(tablero, ancho, actual);
+                    fijarPieza(tablero, ancho, pieza);
                     limpiarFilas(tablero, alto, ancho);
                     piezaActiva = false;
                 }
                 break;
-            case 'w': case 'W':
-            {
-                int nuevaRot = (actual.rotacion + 1) % 4;
-                if (esMovimientoValido(tablero, alto, ancho, actual, actual.x, actual.y, nuevaRot))
-                    actual.rotacion = nuevaRot;
+
+            case 'w': case 'W': {
+                int nuevaRot = (pieza[1] + 1) % 4;
+                if (esMovimientoValido(tablero, alto, ancho,
+                                       pieza[0], pieza[2], pieza[3], nuevaRot))
+                    pieza[1] = nuevaRot;
+                break;
             }
-            break;
+
             case 'q': case 'Q':
                 piezaActiva = false;
-                jugando = false;
+                jugando     = false;
                 break;
+
             default:
                 break;
             }
         }
     }
-
-    for (int i = 0; i < alto; i++) {
+    delete[] pieza;
+    for (int i = 0; i < alto; i++)
         delete[] tablero[i];
-    }
     delete[] tablero;
+
     return 0;
 }
