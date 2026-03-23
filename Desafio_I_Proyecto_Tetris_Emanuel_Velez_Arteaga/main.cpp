@@ -25,7 +25,6 @@ int main() {
 
     int bytesPorFila = ancho / 8;
 
-    // Tablero con memoria dinámica
     uint8_t** tablero = new uint8_t*[alto];
     for (int i = 0; i < alto; i++) {
         tablero[i] = new uint8_t[bytesPorFila];
